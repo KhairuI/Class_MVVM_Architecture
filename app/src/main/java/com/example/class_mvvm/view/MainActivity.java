@@ -56,6 +56,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        roomButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this,RoomActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        firebaseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this,FirebaseActivity.class);
+                startActivity(intent);
+            }
+        });
+
         if(savedInstanceState != null){
            a= savedInstanceState.getInt("count");
             textView.setText(String.valueOf(a));

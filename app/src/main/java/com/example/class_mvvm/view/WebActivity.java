@@ -41,8 +41,6 @@ public class WebActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
 
     private void intViewModel() {
