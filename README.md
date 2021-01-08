@@ -9,3 +9,6 @@
 04. Retrofit
 05. Firebase Cloud Firestore
 06. Room SQLite
+
+# Video Playlist of Whole Course
+https://www.youtube.com/playlist?list=PLx1n1QRaNSmXw8WoqXh9r7MHn3V498w0r
